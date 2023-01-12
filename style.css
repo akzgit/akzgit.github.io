@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+.left-image{
+    position:relative;
+}
+.left-image h2{
+    position:absolute;
+        bottom:0px;
+        left:1rem;
+}
+.left-image img{
+           width: 100%;
+     
+}
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Ubuntu', sans-serif;
+    background-color: aliceblue;
+
+
+ }
+ main{
+    margin: 1rem;
+    display:grid;
+    grid-template-columns: 25% 1fr;
+    column-gap:10px;
+    filter:drop-shadow(0 0 2px blue)
+
+ }
+ .left{
+    background-color: white;
+ }
+ ul{
+    list-style: none ;
+ }
+.personal, .skills,.languages{
+    padding: 8px;
+    line-height: 1;
+}
+.personal{
+    line-height: 2;
+}
+.current{
+    background-color: green;
+    color: white;
+    padding: 2px 4px 4px 3px;
+    border-radius: 4px;
+}
+.experience,.education{
+    line-height: 2;
+    background-color: white;
+    padding: 2rem;
+
+}
+.education{
+    margin-top:10px;
+}
+.date{
+    color: green;
+}
+.experience ul{
+    margin:2rem 0 ;
+}
+.education ul{
+    margin:2rem 0;
+}
+i{
+    color: green;
+}
+footer{
+    background-color: green;
+    padding: 1rem;
+    text-align: center;
+    line: height 1px;
+}
+footer i{
+    color: white;
+}
